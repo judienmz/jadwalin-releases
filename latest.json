@@ -1,24 +1,24 @@
 {
-  "version": "1.0.4",
-  "build": 5,
+  "version": "1.0.5",
+  "build": 6,
   "min_supported_build": 1,
-  "published_at": "2026-11-08T18:06:28.712Z",
-  "notes": "Integrasi Telegram: atur Agenda pagi & Rekap malam (nyala/mati, jam kirim, kirim contoh). Butuh backend 0.7.0.",
+  "published_at": "2026-11-08T20:16:17.215Z",
+  "notes": "Tampilan baru: menu bawah, Jadwal dengan strip minggu & timeline berwarna, pilihan bergaya pil di seluruh aplikasi, pemilih kategori dari bawah layar, form (gaji, kas, katalog, pelanggan, tim, rekening, pinjaman, pengaturan) dalam kartu berikon, detail pelanggan dengan tombol Telepon/WA/Maps. Kartu Beranda membuka bagian Keuangan yang sesuai. Pelanggan baru bisa diisi link Maps. Login tidak hilang setelah update.",
   "apks": {
     "arm64-v8a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.4/jadwalin-1.0.4-arm64-v8a.apk",
-      "sha256": "41d63b49157273d609d3735b783afeffa9d6828986fee406a135a517a4afc83c",
-      "size": 36262110
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.5/jadwalin-1.0.5-arm64-v8a.apk",
+      "sha256": "4873aa92e788926a3bd05102806526ea54374a1a3d6ba989321499385b12984f",
+      "size": 36066314
     },
     "armeabi-v7a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.4/jadwalin-1.0.4-armeabi-v7a.apk",
-      "sha256": "e551e7676af81da3c10e0f67b813be1ec3f7da5b518f6a26306b783c951eef81",
-      "size": 32328528
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.5/jadwalin-1.0.5-armeabi-v7a.apk",
+      "sha256": "e514c022d956d18aab67601278af405ac9e7d0e8783a759f0c9f3fc562b94d83",
+      "size": 32132732
     },
     "x86_64": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.4/jadwalin-1.0.4-x86_64.apk",
-      "sha256": "a7f6bdb79a4761c477cc972054b83ed138da14f4812ea57975a0bd6d0aa13b7a",
-      "size": 38686937
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.5/jadwalin-1.0.5-x86_64.apk",
+      "sha256": "5411560fcb797588168a4a3acf316c9e12f423b4b89b88c689f6b04973b98c7a",
+      "size": 38491141
     }
   }
 }
