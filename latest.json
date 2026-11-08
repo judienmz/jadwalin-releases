@@ -1,24 +1,24 @@
 {
-  "version": "1.0.1",
-  "build": 2,
+  "version": "1.0.2",
+  "build": 3,
   "min_supported_build": 1,
-  "published_at": "2026-11-08T11:49:44.614Z",
-  "notes": "Undangan tim kini menyertakan link unduh aplikasi (di pesan WhatsApp/bagikan dan di layar QR).",
+  "published_at": "2026-11-08T12:44:26.326Z",
+  "notes": "Baru: menu Gaji (Keuangan → Gaji, khusus owner) — gaji pokok, upah harian, komisi % atau Rp per unit dari pekerjaan selesai, bonus/potongan, kasbon yang otomatis dipotong, slip via WhatsApp, langsung tercatat kas keluar. Anggota tim nonaktif bisa diaktifkan lagi.",
   "apks": {
     "arm64-v8a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.1/jadwalin-1.0.1-arm64-v8a.apk",
-      "sha256": "f90019cd460754efbc763365e391976289db5fca9222fcddae773c3eb7cd99d3",
-      "size": 35918470
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.2/jadwalin-1.0.2-arm64-v8a.apk",
+      "sha256": "5f9663f70d89e4c34f0c2e7d043125f98d9461345e720414230dd82d1853b50a",
+      "size": 36049598
     },
     "armeabi-v7a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.1/jadwalin-1.0.1-armeabi-v7a.apk",
-      "sha256": "abfd7268aa7d61bcfae64d0a155ce42279891619e65cbc5ca96367722f17eb58",
-      "size": 32001272
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.2/jadwalin-1.0.2-armeabi-v7a.apk",
+      "sha256": "fa5d1b8ecd8632fcb0910b6d031242e0d993731099719b643f801485abf7e47a",
+      "size": 32132400
     },
     "x86_64": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.1/jadwalin-1.0.1-x86_64.apk",
-      "sha256": "a5d3823589371c88a7450d7a6c0538b83005e4997aef90962e97a8dad22feb78",
-      "size": 38408833
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.2/jadwalin-1.0.2-x86_64.apk",
+      "sha256": "5f7b039a2ace1d9e44493febe5ed0994f2287108845f7a0ce31abef1674ff9de",
+      "size": 38539961
     }
   }
 }
