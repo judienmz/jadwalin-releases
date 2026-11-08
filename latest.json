@@ -1,24 +1,24 @@
 {
-  "version": "1.0.3",
-  "build": 4,
+  "version": "1.0.4",
+  "build": 5,
   "min_supported_build": 1,
-  "published_at": "2026-11-08T17:36:14.920Z",
-  "notes": "Tampilan baru: Beranda dengan laba bersih (omzet → laba setelah material, gaji & pengeluaran), filter hari/minggu/bulan/tahun, akses cepat, jadwal hari ini. Desain lebih rapi (font baru, kartu booking baru). Tambah pelanggan tanpa booking. Menu Gaji jauh lebih cepat. Invoice PDF formal dengan riwayat pembayaran.",
+  "published_at": "2026-11-08T18:06:28.712Z",
+  "notes": "Integrasi Telegram: atur Agenda pagi & Rekap malam (nyala/mati, jam kirim, kirim contoh). Butuh backend 0.7.0.",
   "apks": {
     "arm64-v8a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.3/jadwalin-1.0.3-arm64-v8a.apk",
-      "sha256": "e4650a41a4e229a2f5208182186d77a1649a887175839d057d3aa4f8c72fbd9a",
-      "size": 36262058
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.4/jadwalin-1.0.4-arm64-v8a.apk",
+      "sha256": "41d63b49157273d609d3735b783afeffa9d6828986fee406a135a517a4afc83c",
+      "size": 36262110
     },
     "armeabi-v7a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.3/jadwalin-1.0.3-armeabi-v7a.apk",
-      "sha256": "8e348f77ba13aae7e9a337ec8dc52cf5acf16b05cd9dad1f5337c825ef69789c",
-      "size": 32328476
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.4/jadwalin-1.0.4-armeabi-v7a.apk",
+      "sha256": "e551e7676af81da3c10e0f67b813be1ec3f7da5b518f6a26306b783c951eef81",
+      "size": 32328528
     },
     "x86_64": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.3/jadwalin-1.0.3-x86_64.apk",
-      "sha256": "693a9ac350bcf0a9db843c39b1f1639e4148edd0c70dcfa6753d60d38fe02068",
-      "size": 38686885
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.4/jadwalin-1.0.4-x86_64.apk",
+      "sha256": "a7f6bdb79a4761c477cc972054b83ed138da14f4812ea57975a0bd6d0aa13b7a",
+      "size": 38686937
     }
   }
 }
