@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unduh Jadwalin</title>
+<meta name="description" content="Jadwalin — booking jasa, beres semua. Unduh aplikasi Android.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --blue:#1565D8; --blue-dark:#0D47A1; --ink:#1f2937; --muted:#6b7280; --bg:#f5f7fb; --card:#fff; --line:#e3e8f0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e5e7eb; --muted:#9ca3af; --bg:#0f172a; --card:#162033; --line:#24324a; --blue-dark:#90b8ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--ink); line-height:1.5; }
+  main { max-width:560px; margin:0 auto; padding:32px 16px 48px; }
+  header { text-align:center; }
+  header img { width:96px; height:96px; border-radius:22px; box-shadow:0 6px 20px rgba(21,101,216,.25); }
+  h1 { margin:16px 0 4px; font-size:28px; color:var(--blue-dark); }
+  .tag { color:var(--muted); margin:0 0 24px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px; margin-bottom:16px; }
+  .btn { display:block; text-align:center; background:var(--blue); color:#fff; text-decoration:none; font-weight:600; font-size:17px; padding:14px; border-radius:12px; }
+  .btn:active { opacity:.85; }
+  .meta { color:var(--muted); font-size:13px; text-align:center; margin-top:8px; }
+  .alt { font-size:13px; color:var(--muted); margin-top:12px; text-align:center; }
+  .alt a { color:var(--blue); }
+  h2 { font-size:17px; margin:0 0 8px; }
+  ol { margin:0; padding-left:20px; }
+  li { margin:4px 0; }
+  pre { white-space:pre-wrap; font-family:inherit; margin:0; color:var(--muted); font-size:14px; }
+  footer { text-align:center; color:var(--muted); font-size:12px; margin-top:24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <h1>Jadwalin</h1>
+    <p class="tag">Booking jasa, beres semua.</p>
+  </header>
+
+  <div class="card">
+    <a class="btn" id="dl" href="https://github.com/judienmz/jadwalin-releases/releases/latest">Unduh untuk Android</a>
+    <div class="meta" id="meta">Memuat versi terbaru…</div>
+    <div class="alt" id="alt"></div>
+  </div>
+
+  <div class="card">
+    <h2>Cara memasang</h2>
+    <ol>
+      <li>Tekan <b>Unduh untuk Android</b>, tunggu sampai selesai.</li>
+      <li>Buka file <b>jadwalin-….apk</b> dari notifikasi atau folder Download.</li>
+      <li>Bila muncul "Demi keamanan, HP Anda tidak diizinkan menginstal aplikasi tidak dikenal", tekan <b>Setelan</b> → aktifkan <b>Izinkan dari sumber ini</b> → kembali.</li>
+      <li>Tekan <b>Instal</b>. Bila Play Protect bertanya, pilih <b>Tetap instal</b>.</li>
+    </ol>
+    <p class="meta">Pembaruan berikutnya muncul otomatis di dalam aplikasi.</p>
+  </div>
+
+  <div class="card" id="notes-card" hidden>
+    <h2>Yang baru</h2>
+    <pre id="notes"></pre>
+  </div>
+
+  <footer>Data usaha tersimpan di Google Sheet milik Anda sendiri.</footer>
+</main>
+<script>
+  const ABI_LABEL = { 'arm64-v8a': 'HP 64-bit (umum)', 'armeabi-v7a': 'HP lama 32-bit', 'x86_64': 'Emulator / x86' };
+  fetch('latest.json?t=' + Date.now()).then(r => r.json()).then(j => {
+    const apks = j.apks || {};
+    const main = apks['arm64-v8a'];
+    if (main) {
+      const dl = document.getElementById('dl');
+      dl.href = main.url;
+      dl.textContent = 'Unduh Jadwalin ' + j.version;
+    }
+    const mb = main && main.size ? ' · ' + (main.size / 1048576).toFixed(1) + ' MB' : '';
+    const date = j.published_at ? ' · ' + new Date(j.published_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+    document.getElementById('meta').textContent = 'Versi ' + j.version + mb + date;
+    const others = Object.keys(apks).filter(k => k !== 'arm64-v8a');
+    if (others.length) {
+      const alt = document.getElementById('alt');
+      alt.append('Tidak bisa dipasang? Coba: ');
+      others.forEach((k, i) => {
+        const a = document.createElement('a');
+        a.href = apks[k].url;
+        a.textContent = ABI_LABEL[k] || k;
+        alt.append(a);
+        if (i < others.length - 1) alt.append(' · ');
+      });
+    }
+    if (j.notes) {
+      document.getElementById('notes').textContent = j.notes;
+      document.getElementById('notes-card').hidden = false;
+    }
+  }).catch(() => {
+    document.getElementById('meta').textContent = 'Lihat semua versi di halaman rilis.';
+  });
+</script>
+</body>
+</html>
