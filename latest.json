@@ -1,24 +1,24 @@
 {
-  "version": "1.0.2",
-  "build": 3,
+  "version": "1.0.3",
+  "build": 4,
   "min_supported_build": 1,
-  "published_at": "2026-11-08T12:44:26.326Z",
-  "notes": "Baru: menu Gaji (Keuangan → Gaji, khusus owner) — gaji pokok, upah harian, komisi % atau Rp per unit dari pekerjaan selesai, bonus/potongan, kasbon yang otomatis dipotong, slip via WhatsApp, langsung tercatat kas keluar. Anggota tim nonaktif bisa diaktifkan lagi.",
+  "published_at": "2026-11-08T17:36:14.920Z",
+  "notes": "Tampilan baru: Beranda dengan laba bersih (omzet → laba setelah material, gaji & pengeluaran), filter hari/minggu/bulan/tahun, akses cepat, jadwal hari ini. Desain lebih rapi (font baru, kartu booking baru). Tambah pelanggan tanpa booking. Menu Gaji jauh lebih cepat. Invoice PDF formal dengan riwayat pembayaran.",
   "apks": {
     "arm64-v8a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.2/jadwalin-1.0.2-arm64-v8a.apk",
-      "sha256": "5f9663f70d89e4c34f0c2e7d043125f98d9461345e720414230dd82d1853b50a",
-      "size": 36049598
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.3/jadwalin-1.0.3-arm64-v8a.apk",
+      "sha256": "e4650a41a4e229a2f5208182186d77a1649a887175839d057d3aa4f8c72fbd9a",
+      "size": 36262058
     },
     "armeabi-v7a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.2/jadwalin-1.0.2-armeabi-v7a.apk",
-      "sha256": "fa5d1b8ecd8632fcb0910b6d031242e0d993731099719b643f801485abf7e47a",
-      "size": 32132400
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.3/jadwalin-1.0.3-armeabi-v7a.apk",
+      "sha256": "8e348f77ba13aae7e9a337ec8dc52cf5acf16b05cd9dad1f5337c825ef69789c",
+      "size": 32328476
     },
     "x86_64": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.2/jadwalin-1.0.2-x86_64.apk",
-      "sha256": "5f7b039a2ace1d9e44493febe5ed0994f2287108845f7a0ce31abef1674ff9de",
-      "size": 38539961
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.3/jadwalin-1.0.3-x86_64.apk",
+      "sha256": "693a9ac350bcf0a9db843c39b1f1639e4148edd0c70dcfa6753d60d38fe02068",
+      "size": 38686885
     }
   }
 }
