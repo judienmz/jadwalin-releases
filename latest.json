@@ -1,24 +1,24 @@
 {
-  "version": "1.0.6",
-  "build": 7,
+  "version": "1.0.7",
+  "build": 8,
   "min_supported_build": 1,
-  "published_at": "2026-11-08T20:37:37.857Z",
-  "notes": "Keuangan lebih cepat: Laporan, Gaji, dan Beranda langsung tampil dari data terakhir, berpindah sub-tab tidak memuat ulang. Data otomatis diperbarui di belakang bila ada perubahan.",
+  "published_at": "2026-11-09T10:38:01.444Z",
+  "notes": "Perbaikan: isian pilihan layanan (mis. Kapasitas PK) tampil lagi di form booking; agenda pagi & rekap malam bisa dimatikan dan saklarnya langsung bereaksi; tombol tambah grup hilang bila grup sudah tertaut; akses cepat Beranda lebih rapat; kolom Jarak & Transport sejajar.",
   "apks": {
     "arm64-v8a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.6/jadwalin-1.0.6-arm64-v8a.apk",
-      "sha256": "3b1814b671c3234ee28b42472bb2562ab71c0256cc52b1d24371797ce1ad4f93",
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.7/jadwalin-1.0.7-arm64-v8a.apk",
+      "sha256": "b2bbcba73d4082789e616d0e3435bbd9823f44f486419b243c1c6c7479b893ca",
       "size": 36066314
     },
     "armeabi-v7a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.6/jadwalin-1.0.6-armeabi-v7a.apk",
-      "sha256": "10f9606aee8ae6b1fc471d829f97c017070760416cc1fe99906c28406cde0e8e",
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.7/jadwalin-1.0.7-armeabi-v7a.apk",
+      "sha256": "2f65611a7610783f98481479669fcdb5eb0e44ad1b7895343ab7a637beecb949",
       "size": 32149116
     },
     "x86_64": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.6/jadwalin-1.0.6-x86_64.apk",
-      "sha256": "b441955d048ab1873d2b988d6e00c4bb2a110a298f65d72ef5c7d9d53cb4be33",
-      "size": 38556677
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.7/jadwalin-1.0.7-x86_64.apk",
+      "sha256": "5926c48ac24f7c15c01c2c69932d299852c6371478cb160d66158106d74e43e9",
+      "size": 38622213
     }
   }
 }
