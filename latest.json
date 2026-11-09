@@ -1,23 +1,23 @@
 {
-  "version": "1.0.8",
-  "build": 9,
+  "version": "1.0.9",
+  "build": 10,
   "min_supported_build": 1,
-  "published_at": "2026-11-09T13:13:16.673Z",
-  "notes": "Perbaikan: isian pilihan dengan sedikit opsi (mis. Jenis freon R22/R32/R410) di form booking tidak lagi tampil kotak abu-abu.",
+  "published_at": "2026-11-09T18:39:07.146Z",
+  "notes": "",
   "apks": {
     "arm64-v8a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.8/jadwalin-1.0.8-arm64-v8a.apk",
-      "sha256": "a9a0084df05d29945c4c4aafa929fe866c328726ab2e71623192c40cdfefdd42",
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.9/jadwalin-1.0.9-arm64-v8a.apk",
+      "sha256": "1a60c0e9fb960ad9588961ac93e9854ade59161c9f1cb6a7f6e57ae2564611f5",
       "size": 36066314
     },
     "armeabi-v7a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.8/jadwalin-1.0.8-armeabi-v7a.apk",
-      "sha256": "f5a11af705be0a4c5bb374b094fe2b98b11f88b74563f84134dfe736e6b97e49",
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.9/jadwalin-1.0.9-armeabi-v7a.apk",
+      "sha256": "81056edba71f98d657efd5b8c5140c691e125ac3de61e4ab3cf816c5559600cb",
       "size": 32149116
     },
     "x86_64": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.8/jadwalin-1.0.8-x86_64.apk",
-      "sha256": "20f0e4143833a7766016b3d3071da8bdb0faa9dae30334038ff554ace85878bf",
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.9/jadwalin-1.0.9-x86_64.apk",
+      "sha256": "553121ed391722280525709084fa0eacedec080ee43c0fdf5c53f5da0a26ed15",
       "size": 38622213
     }
   }
