@@ -1,23 +1,23 @@
 {
-  "version": "1.0.9",
-  "build": 10,
+  "version": "1.0.10",
+  "build": 11,
   "min_supported_build": 1,
-  "published_at": "2026-11-09T18:39:07.146Z",
+  "published_at": "2026-11-10T12:44:08.754Z",
   "notes": "",
   "apks": {
     "arm64-v8a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.9/jadwalin-1.0.9-arm64-v8a.apk",
-      "sha256": "1a60c0e9fb960ad9588961ac93e9854ade59161c9f1cb6a7f6e57ae2564611f5",
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.10/jadwalin-1.0.10-arm64-v8a.apk",
+      "sha256": "c1c248fa21842c3b95022a72994a254cc3a891916bff4bbc4ea822bb516bce89",
       "size": 36066314
     },
     "armeabi-v7a": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.9/jadwalin-1.0.9-armeabi-v7a.apk",
-      "sha256": "81056edba71f98d657efd5b8c5140c691e125ac3de61e4ab3cf816c5559600cb",
-      "size": 32149116
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.10/jadwalin-1.0.10-armeabi-v7a.apk",
+      "sha256": "43cbb190a6d80e4d38ebf58e2567191766cf86eb663831098e4964cb077fa973",
+      "size": 32165500
     },
     "x86_64": {
-      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.9/jadwalin-1.0.9-x86_64.apk",
-      "sha256": "553121ed391722280525709084fa0eacedec080ee43c0fdf5c53f5da0a26ed15",
+      "url": "https://github.com/judienmz/jadwalin-releases/releases/download/v1.0.10/jadwalin-1.0.10-x86_64.apk",
+      "sha256": "47b2ef61612b9643887235944a3802a69dd92e6a39f6a33d6aa279273649cb01",
       "size": 38622213
     }
   }
